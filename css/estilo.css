@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+}
+.tabelaAutenticacao{
+	margin-top:100px;
+	background-color:#F0F0F0;
+}
+.botaoEntrar{
+	background: url(../img/Entrar.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left:0px;
+	text-align:right;
+	width:75px;
+	background-color:#EAEAEA;
+	border:1px;
+}
+.botaoSalvar{
+	background: url(../img/save.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left:0px;
+	text-align:right;
+	width:135px;
+	height:25px;
+	background-color:#EAEAEA;
+	border:1px;
+	border-style: solid;
+	border-color:#666;
+	padding-right:0px;
+}
+.botaoRegistraEntrada{
+	background: url(../img/icon-Stock.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left:0px;
+	text-align:right;
+	width:135px;
+	height:25px;
+	background-color:#EAEAEA;
+	border:1px;
+	border-style: solid;
+	border-color:#666;
+	padding-right:0px;
+}
+.tabelaNovoUsuario{
+	/*margin-top:50px;
+	border-collapse:collapse;*/
+	border-radius:8px;
+	background-color:#F0F0F0;
+}
+/* unvisited link */
+a:link {
+    color: #000;
+	text-decoration:none;
+}
+
+/* visited link */
+a:visited {
+    color: #000;
+}
+
+/* mouse over link */
+a:hover {
+    color: #09F;
+	text-decoration:underline;
+}
+
+/* selected link */
+a:active {
+    color: #09F;
+	text-decoration:underline;
+}
+.dv2{
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background-color:#CCC;
+	margin:0 auto;
+}
+.div_table_entrada{
+	/*width:600px;*/
+	margin:0 auto;
+}
+.info_user{
+	text-align:right !important;
+	float:right !important;
+}
+@media print
+{
+body{
+background: #FFF;
+border: none;
+text-align:justify;
+}
+#linkInicio{
+	visibility:hidden;
+}
+#button{
+	visibility:hidden;
+}
+}
+#ListaItensAdicionados{
+	width:100%;
+	height:100%;
+}
+.menu{
+	list-style:none;
+	border:1px solid #c0c0c0;
+	margin-bottom:50px;
+	margin-top:25px;
+}
+.menu li{
+	position:relative; 
+	float:left;
+	border-right:1px solid #c0c0c0; 
+}
+.menu li a{
+	color:#333;
+	text-decoration:none;
+	padding:5px 10px;
+	display:block;
+}
+.menu li a:hover{
+	background:#333; 
+	color:#fff; 
+	-moz-box-shadow:0 3px 10px 0 #CCC; 
+	-webkit-box-shadow:0 3px 10px 0 #ccc; 
+	text-shadow:0px 0px 5px #fff; 
+}
+.menu li  ul{
+	position:absolute; 
+	top:25px; 
+	left:0;
+	background-color:#fff; 
+	display:none;
+	padding-left:0px;
+}
+.menu li:hover ul, .menu li.over ul{
+	display:block;
+}
+.menu li ul li{
+	border:1px solid #c0c0c0; 
+	display:block; 
+	width:150px;
+}
+.zebraTabela{
+  background-color: #CCC;   
+}
